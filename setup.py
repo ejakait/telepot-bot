@@ -1,0 +1,32 @@
+from distutils.core import setup
+
+setup(
+    name='telepot-bot',
+    version='0.1.0',
+    author='Ejakait Caleb',
+    author_email='ejakait@torchwood.io',
+    packages=['bot','bot.tests'],
+    license='LICENSE.txt',
+    description='Python Telegram Bot',
+    install_requires=[
+        "aiohttp==1.1.6",
+        "async-timeout==1.1.0",
+        "chardet==2.3.0",
+        "click==6.6",
+        "future==0.16.0",
+        "Jinja2==2.8",
+        "MarkupSafe==0.23",
+        "multidict==2.1.4",
+        "nltk==3.2.1",
+        "nose==1.3.7",
+        "oauthlib==2.0.1",
+        "python-dotenv==0.6.1",
+        "requests==2.12.3",
+        "requests-oauthlib==0.7.0",
+        "six==1.10.0",
+        "telepot==10.2",
+        "tweepy==3.5.0",
+        "urllib3==1.19.1",
+        "yarl==0.8.1",
+    ],
+)

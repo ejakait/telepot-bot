@@ -14,6 +14,8 @@ def handle(msg):
 # Create a bot object with API key
 bot = telepot.Bot(TOKEN)
 bot.message_loop(handle)
+
+print('Listening ...')
 # Listen to the messages
 while 1:
-    time.sleep(10)
+    time.sleep(5)

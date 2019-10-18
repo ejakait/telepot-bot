@@ -17,7 +17,7 @@ setup(
         "Jinja2==2.8",
         "MarkupSafe==0.23",
         "multidict==2.1.4",
-        "nltk==3.2.1",
+        "nltk==3.4.5",
         "nose==1.3.7",
         "oauthlib==2.0.1",
         "python-dotenv==0.6.1",

@@ -26,7 +26,7 @@ setup(
         "six==1.10.0",
         "telepot==10.2",
         "tweepy==3.5.0",
-        "urllib3==1.19.1",
+        "urllib3==1.24.2",
         "yarl==0.8.1",
     ],
 )

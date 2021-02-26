@@ -9,7 +9,7 @@ setup(
     license='LICENSE.txt',
     description='Python Telegram Bot',
     install_requires=[
-        "aiohttp==1.1.6",
+        "aiohttp==3.7.4",
         "async-timeout==1.1.0",
         "chardet==2.3.0",
         "click==6.6",

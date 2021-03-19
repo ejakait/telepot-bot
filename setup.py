@@ -14,7 +14,7 @@ setup(
         "chardet==2.3.0",
         "click==6.6",
         "future==0.16.0",
-        "Jinja2==2.8",
+        "Jinja2==2.11.3",
         "MarkupSafe==0.23",
         "multidict==2.1.4",
         "nltk==3.2.1",
